@@ -4,7 +4,7 @@
 
 #Example
 
-arr = [1, 2, 3, 4, 5]
+arr = [1, 23, 13, 46, 5]
 
 #print(arr[0]) #output: 1
 
@@ -14,3 +14,15 @@ arr[2] = 10
 
 for num in arr: 
     print(arr, end=" ")
+    
+#get lenght of an array
+x = len(arr)
+print(x)
+
+#get number of specific element
+y = arr.count(2)
+print(y)
+
+#arrange the array
+arr.sort()
+print(arr)
